@@ -1,0 +1,96 @@
+/* colors and font styles
+
+dark background color (hero and footer)
+#1f2937
+
+Hero Main text ("this website is awesome")
+48px extra-bold #f9faf8
+
+Hero Secondary text, Header Link text
+18px #e5e7eb
+
+Header Logo Text
+24px #f9faf8
+
+Button color, call to action background color
+#3882f6
+
+information header text
+36px extra-bold #1f2937
+
+Quote section background color
+#e5e7eb
+
+Quote text 
+36px light italic #1f2937 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html {
+    font-family: Roboto;
+}
+
+body {
+    margin: 0;
+}
+
+#top {
+    background-color: #1f2937;
+    padding: 30px;
+    color: #e5e7eb;
+
+}
+
+nav {
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+    align-items: center;
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+a, .subtext {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 700;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: none;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    color: #1f2937;
+}
+
+.content {
+    display: flex;
+}
+
+.image {
+    border: #3882f6;
+    border-radius: 8px;
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+}
+
