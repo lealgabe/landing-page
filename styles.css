@@ -76,6 +76,41 @@ h2 {
     height: 100px;
 }
 
-.image-subtext {
+#quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 48px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
 
+cite {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+blockquote footer {
+    text-align: right;
+}
+
+.CTA {
+    background-color: #3882f6;
+    margin: 4em 36px;
+    padding: 24px 48px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #f9faf8;
+}
+
+.CTA-text {
+
+}
+
+.CTA button {
+    border-style: solid;
+    padding: 8px 24px;
+    max-height: 32px;
 }
